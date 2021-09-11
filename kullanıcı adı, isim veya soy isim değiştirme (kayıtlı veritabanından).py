@@ -36,6 +36,9 @@ if change == 1:
         if addUser["userName"] == eski1:
             newUser = str(input("Yeni Kullanıcı Adınız: "))
             addUser["userName"] = newUser
+		else:
+			print("Böyle Bir Kullanıcı Adı Bulunmamaktadır! ")
+                
             
 
 if change == 2:
@@ -44,7 +47,8 @@ if change == 2:
         if addUser["firstName"] == eski2:
             newName = str(input("Yeni İsminiz: "))
             addUser["firstName"] = newName
-        
+		else:
+			print("Böyle Bir İsim Bulunmamaktadır! ")
     
 
 if change == 3:
@@ -53,6 +57,8 @@ if change == 3:
         if addUser["lastName"] == eski3:
             newSurname = str(input("Yeni Soy İsminiz: "))
             addUser["lastName"] = newSurname
+		else:
+			print("Böyle Bir Soy İsim Bulunmamaktadır! ")
 
         
             
